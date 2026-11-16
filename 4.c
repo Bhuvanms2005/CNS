@@ -35,10 +35,11 @@ int main()
             sum=0;
             for(k=0;k<n;k++)
             {
-                sum+=key[j][k]*(msg[i+k]-'A');
+                sum+=key[j][k] * (msg[i+k]-'A');
             }
-            printf("%c", (sum % 26) + 'A');
+            printf("%c",(sum%26)+'A');
         }
+
     }
     return 0;
 }

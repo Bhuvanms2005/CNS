@@ -32,7 +32,7 @@ int main()
         {
            for(k=0;k<26;k++)
             {
-                if(toupper(key[k]==enc[i]))
+                if(toupper(key[k])==enc[i])
                 {
                     break;
                 }
@@ -43,7 +43,7 @@ int main()
         {
             for(k=0;k<26;k++)
             {
-                if(tolower(key[k]==enc[i]))
+                if(tolower(key[k])==enc[i])
                 {
                     break;
                 }

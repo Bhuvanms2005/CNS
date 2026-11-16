@@ -56,7 +56,7 @@ int main()
         char x=text[n++],y;
         if(text[n]=='\0')
         {
-            y='x';
+            y='X';
         }
         else if(text[n]==x)
         {
